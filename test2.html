@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Boka öb tält</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        
+        <header>
+            <ul>
+                <li class="logo"><a href="">ÖBtält-bokning</a></li>
+                <li class="navigation"><a href="">Kontakta oss</a></li>
+                <li class="bilder"><a href="">Bilder</a></li>
+            </ul>
+            </header>
+
+        <section class = "banner">
+            <h2>BOKA ÖB TÄLTET NU</h2>
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservera</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Välj Dag</option>
+                                <option value = "sunday">Söndag</option>
+                                <option value = "monday">Måndag</option>
+                                <option value = "tuesday">Tisdag</option>
+                                <option value = "wednesday">Onsdag</option>
+                                <option value = "thursday">Torsdag</option>
+                                <option value = "friday">Fredag</option>
+                                <option value = "saturday">Lördag</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Välj Tid</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="Namn">
+                            <input type = "text" placeholder="Mobil Nummer">
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "number" placeholder="Hur många?" min = "1">
+                            <input type = "submit" value = "BOKA">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>
